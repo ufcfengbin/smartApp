@@ -1,0 +1,24 @@
+<ion-view view-title="文档">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+
+        <ion-tabs class="tabs-stable tabs-icon-top">
+
+          <ion-tab title="文档" class="assertive-900" icon-on="ion-ios-folder" icon-off="ion-ios-folder-outline" href="#/app/tabs/doc" badge="" badge-style="badge-assertive">
+            <ion-nav-view name="tab-doc"></ion-nav-view>
+          </ion-tab>
+
+          <ion-tab title="问答" class="assertive-900" icon-on="ion-ios-color-wand" icon-off="ion-ios-color-wand-outline" href="#/app/tabs/qna">
+            <ion-nav-view name="tab-qna"></ion-nav-view>
+          </ion-tab>
+
+          <ion-tab title="经验" class="assertive-900" icon-on="ion-ios-color-filter" icon-off="ion-ios-color-filter-outline" href="#/app/tabs/exp">
+            <ion-nav-view name="tab-exp"></ion-nav-view>
+          </ion-tab>
+
+          <ion-tab title="知识百科" class="assertive-900" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" href="#/app/tabs/wiki">
+            <ion-nav-view name="tab-wiki"></ion-nav-view>
+          </ion-tab>
+
+        </ion-tabs>
+    </ion-content>
+</ion-view>

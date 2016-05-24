@@ -1,0 +1,20 @@
+<ion-view view-title="文档">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <ion-tabs class="tabs-stable tabs-top tabs-second">
+
+          <ion-tab title="文件" href="#/app/tabs/doc/file">
+            <ion-nav-view name="tab-doc-file"></ion-nav-view>
+          </ion-tab>
+
+          <ion-tab title="上传" href="#/app/tabs/doc/upload">
+            <ion-nav-view name="tab-doc-upload"></ion-nav-view>
+          </ion-tab>
+
+          <ion-tab title="离线文件" href="#/app/tabs/doc/download">
+            <ion-nav-view name="tab-doc-download"></ion-nav-view>
+          </ion-tab>
+
+        </ion-tabs>
+                
+    </ion-content>
+</ion-view>
